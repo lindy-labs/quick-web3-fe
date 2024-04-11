@@ -1,10 +1,8 @@
 
 import './App.css'
-import { Button } from "@/components/ui/button"
 import '@rainbow-me/rainbowkit/styles.css';
 
 import {
-  ConnectButton,
   getDefaultConfig,
   RainbowKitProvider,
 } from '@rainbow-me/rainbowkit';
@@ -20,6 +18,7 @@ import {
   QueryClientProvider,
   QueryClient,
 } from "@tanstack/react-query";
+import { Outlet } from '@tanstack/react-router';
 
 const config = getDefaultConfig({
   appName: 'project-opus',
@@ -30,7 +29,6 @@ const config = getDefaultConfig({
 
 const queryClient = new QueryClient();
 
-
 function App() {
 
   return (
@@ -38,8 +36,7 @@ function App() {
       <WagmiProvider config={config}>
         <QueryClientProvider client={queryClient}>
           <RainbowKitProvider>
-            <Button> Hi! </Button>
-            <ConnectButton />
+            {<Outlet />}
           </RainbowKitProvider>
         </QueryClientProvider>
       </WagmiProvider>
