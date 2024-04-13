@@ -1,6 +1,6 @@
 # quickstack
 
-web3 projects made easy
+frontend web3 projects made easy
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" width="52" alt="typescript logo"  />
@@ -31,12 +31,12 @@ yarn dev
 
 - [shadcn/ui](https://ui.shadcn.com/) 
   - Beautifully designed components built on top of Radix UI and Tailwind CSS that we can copy and paste into our app. Accessible. Customizable. Open Source.
+ 
+- [Tanstack Router](https://tanstack.com/router/latest)
+  - Modern and scalable routing for React applications. A fully type-safe React router with built-in data fetching, stale-while revalidate caching and first-class search-param APIs.
 
 - [Rainbowkit](https://www.rainbowkit.com/)
   - The best way to connect a wallet
-
-- [Tanstack Router](https://tanstack.com/router/latest)
-   - Modern and scalable routing for React applications. A fully type-safe React router with built-in data fetching, stale-while revalidate caching and first-class search-param APIs.
 
 - [Viem](https://viem.sh/)
   - Build reliable apps & libraries with lightweight, composable, and type-safe modules that interface with Ethereum.
