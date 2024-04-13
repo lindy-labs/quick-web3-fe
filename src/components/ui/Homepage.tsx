@@ -1,11 +1,11 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { Button } from "./button"
+import Frames from "../Frames/Frames";
 
 const Homepage = () => {
   return (
     <>
-      <Button>Hi!</Button>
       <ConnectButton />
+      <Frames />
     </>
   );
 }
