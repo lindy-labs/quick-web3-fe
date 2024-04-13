@@ -10,6 +10,8 @@ const typographyVariants = cva(
       h3: "text-2xl",
       h4: "text-xl",
       p: "text-base",
+      xl: "text-5xl",
+      xxl: "text-8xl",
     },
     weight: {
       normal: "font-normal",

@@ -5,9 +5,9 @@ const TypographyFrame = () => {
     <div className="flex-column space-y-2 m-4">
       <Typography type="h1">Typography</Typography>
       <div className="flex-column space-y-2">
-        <Typography className="text-5xl">Aeonik</Typography>
-        <Typography className="text-8xl">Ag</Typography>
-        <Typography className="text-5xl">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()</Typography>
+        <Typography type={"xl"}>Aeonik</Typography>
+        <Typography type={"xxl"}>Ag</Typography>
+        <Typography type={"xl"}>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()</Typography>
         <Typography type={"h1"}>h1</Typography>
         <Typography type={"h1"}>Taxing Laughter: The Joke TaxChronicles</Typography>
         <Typography type={"h2"}>h2</Typography>
