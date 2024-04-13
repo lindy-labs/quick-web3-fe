@@ -82,21 +82,24 @@ body {
 
 @font-face {
     font-family: 'Aeonik';
-    src: url('/fonts/Aenoik-regular.woff2') format('woff2');
+    src: url('/fonts/Aenoik-regular.woff2') format('woff2'),
+        url('/fonts/Aenoik-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Aeonik';
-    src: url('/fonts/Aenoik-bold.woff2') format('woff2');
+    src: url('/fonts/Aenoik-bold.woff2') format('woff2'),
+        url('/fonts/Aenoik-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Aeonik';
-    src: url('/fonts/Aenoik-regular-italic.woff2') format('woff2');
+    src: url('/fonts/Aenoik-regular-italic.woff2') format('woff2'),
+        url('/fonts/Aenoik-regular-italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
