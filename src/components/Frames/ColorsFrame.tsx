@@ -1,3 +1,4 @@
+import { Typography } from "../ui/typography";
 
 interface ColorBoxProps {
   color: string
@@ -10,7 +11,7 @@ const ColorBox = ({ color }: ColorBoxProps) => {
       <div>
         <div className={color + " h-20 rounded-t-2xl"} />
       </div>
-      <div>{color}</div>
+      <div><Typography className="text-gray">{color}</Typography> </div>
     </div>
   );
 }
@@ -19,7 +20,7 @@ const ColorBox = ({ color }: ColorBoxProps) => {
 const ColorsFrame = () => {
   return (
     <div className="flex-column space-y-3 m-4">
-      <h1>Colors</h1>
+      <Typography type="h1">Colors</Typography>
       <div className="flex space-x-3">
         <ColorBox color="bg-white" />
         <ColorBox color="bg-white-off" />

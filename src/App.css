@@ -70,8 +70,33 @@
     width: 100vw;
 }
 
+body {
+    font-family: 'Aeonik', sans-serif;
+}
+
 *,
 *::before,
 *::after {
     box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/fonts/Aenoik-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/fonts/Aenoik-bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('/fonts/Aenoik-regular-italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
 }
