@@ -1,4 +1,4 @@
-# quickstack
+# quick-web3-fe
 
 frontend web3 projects made easy
 
