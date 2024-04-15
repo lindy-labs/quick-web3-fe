@@ -28,3 +28,6 @@ dist-ssr
 
 # lock
 yarn.lock
+
+#firebase
+hosting.*
