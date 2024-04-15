@@ -1,6 +1,10 @@
-# quick-web3-fe
+# Quick Web3 Frontend
 
-frontend web3 projects made easy
+Frontend web3 projects made easy
+
+## 🌐 Official Webpage
+- Project Console: https://console.firebase.google.com/project/quickstack-5318d/overview
+- Hosting URL: https://quickstack-5318d.web.app
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" width="52" alt="typescript logo"  />
