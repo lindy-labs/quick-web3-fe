@@ -44,3 +44,16 @@ yarn dev
 - [Wagmi](https://wagmi.sh/)
   - Reactivity for Ethereum apps.
 
+## 🔥 Configuring Firebase
+  - Go to https://firebase.google.com/ and start a Firebase project.
+  - Navigate to the root folder and type `yarn add -g firebase-tools` into the terminal.
+  - Type `firebase login` and follow the instructions to log in using the google account that created the Firebase project.
+  - Type `firebase init` into the terminal. Select Use an existing project and choose the Firebase project from the list.
+  - Use dist as your public directory
+
+## 🔥 Deploying to Firebase
+ - `yarn build`
+ - `firebase deploy`
+
+ 
+
